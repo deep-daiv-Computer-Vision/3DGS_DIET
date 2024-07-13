@@ -362,17 +362,26 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
+  display: inline-block;
 }
 
 .poppins-bold {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
+  display: inline-block;
 }
 
 .poppins-extrabold {
   font-family: "Poppins", sans-serif;
-  font-weight: 800;
+  font-weight: 750;
   font-style: normal;
+  display: inline-block;
 }
 
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  display: inline-block;
+}

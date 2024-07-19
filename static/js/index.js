@@ -77,3 +77,10 @@ $(document).ready(function() {
     bulmaSlider.attach();
 
 })
+
+function changeExample(imgSrc1,imgSrc2){
+  vid = document.getElementById("img_input1");
+  vid.src = imgSrc1;
+  vid = document.getElementById("img_input2");
+  vid.src = imgSrc2;
+}

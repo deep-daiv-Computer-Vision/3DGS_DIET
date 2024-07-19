@@ -216,65 +216,50 @@
           <img src="static/images/comparsion/viscombird3.jpg" style="width:43.5%">
           <img src="static/images/comparsion/viscombird2.jpg" style="width:43.5%">
         </div>
-        <div class="columns is-centered">
-          
-          <div class="column">
-            <div class="content">
-              <div class="columns is-centered">
-                <div class="column is-full-width">
-                  <div id="example1" class="bal-container-small" style="padding-bottom: 150%;">
-                    <div class="bal-after">
-                      <img src="./static/images/comparsion/rendering.png">
-                      <div class="bal-afterPosition afterLabel" style="z-index:1;">
-                        Ours
-                      </div>
-                    </div>
-                    <div class="bal-before" style="width:96.4968152866242%;">
-                      <div class="bal-before-inset" style="width: 539px;">
-                        <img src="./static/images/comparsion/origin.png">
-                        <div class="bal-beforePosition beforeLabel">
-                          Origin
+
+        <div>
+          <div class="columns is-centered">
+            
+            <div class="column">
+              <div class="content">
+                <div class="columns is-centered">
+                  <div class="column is-full-width">
+                    <div id="example1" class="bal-container-small" style="padding-bottom: 150%;">
+                      <div class="bal-after">
+                        <img id='img_input1' src="./static/images/comparsion/rendering.png">
+                        <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                          Ours
                         </div>
                       </div>
-                    </div>
-                    <div class="bal-handle" style="left:96.4968152866242%;">
-                      <span class=" handle-left-arrow"></span>
-                      <span class="handle-right-arrow"></span>
-                    </div>
-                  </div>
-                </div>
-                
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="columns is-centered">
-              <div class="column content">
-                <div id="example2" class="bal-container-small" style="padding-bottom: 150%;">
-                  <div class="bal-after">
-                    <img src="./static/images/comparsion/2_comp_after_23.jpg">
-                    <div class="bal-afterPosition afterLabel" style="z-index:1;">
-                      Ours
-                    </div>
-                  </div>
-
-                  <div class="bal-before" style="width:62.10191082802548%;">
-                    <div class="bal-before-inset" style="width: 539px;">
-                      <img src="./static/images/comparsion/2_comp_before_23.jpg">
-                      <div class="bal-beforePosition beforeLabel">
-                        Origin
+                      <div class="bal-before" style="width:96.4968152866242%;">
+                        <div class="bal-before-inset" style="width: 539px;">
+                          <img id='img_input2' src="./static/images/comparsion/origin.png">
+                          <div class="bal-beforePosition beforeLabel">
+                            Origin
+                          </div>
+                        </div>
+                      </div>
+                      <div class="bal-handle" style="left:96.4968152866242%;">
+                        <span class=" handle-left-arrow"></span>
+                        <span class="handle-right-arrow"></span>
                       </div>
                     </div>
                   </div>
-                  <div class="bal-handle" style="left:62.10191082802548%;">
-                    <span class=" handle-left-arrow"></span>
-                    <span class="handle-right-arrow"></span>
-                  </div>
                 </div>
               </div>
             </div>
           </div>
-          
+
+          <div class ="example-select" style="display: flex; justify-content: center; gap: 50px; padding-bottom: 30px;">
+            <a class = "example-item" onclick="changeExample('./static/images/comparsion/rendering.png','./static/images/comparsion/origin.png')">
+              <img src="./static/images/comparsion/origin.png">
+            </a>  
+            <a class = "example-item" onclick="changeExample('./static/images/comparsion/2_comp_after_23.jpg','./static/images/comparsion/2_comp_before_23.jpg')">
+              <img src="./static/images/comparsion/2_comp_before_23.jpg">
+            </a>
+          </div>
+
+         </div>
         </div>
       </div>
     </div>

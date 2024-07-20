@@ -225,19 +225,28 @@
               </div>
             </div>
   
-            <div class ="example-select" style="display: flex; justify-content: center; gap: 50px; padding-bottom: 30px;">
+            <div class ="example-select" style="display: flex; justify-content: center; gap: 50px; padding-bottom: 30px; width: 100%;">
               <!--3dgs_d vs 3dgs-->
-              <a class = "example-item" onclick="changeExample_db_gs('./static/images/comparsion/3dgs_d.png','./static/images/comparsion/3dgs.png')">
-                <img src="./static/images/comparsion/3dgs_d.png">
-              </a>  
+              <div>
+                <a class = "example-item" onclick="changeExample_db_gs('./static/images/comparsion/3dgs_d.png','./static/images/comparsion/3dgs.png')">
+                  <img src="./static/images/comparsion/3dgs_d.png">
+                </a>  
+                <span  class="poppins-bold" style="color : #264a8e;">3DGS vs Ours</span>
+              </div>
               <!--gt vs 3dgs_d-->
-              <a class = "example-item" onclick="changeExample_gt_db('./static/images/comparsion/3dgs_d.png','./static/images/comparsion/gt.png')">
-                <img src="./static/images/comparsion/gt.png">
-              </a>
+              <div>
+                <a class = "example-item" onclick="changeExample_gt_db('./static/images/comparsion/3dgs_d.png','./static/images/comparsion/gt.png')">
+                  <img src="./static/images/comparsion/gt.png">
+                </a>
+                <span class="poppins-bold" style="color : #264a8e;">GT vs Ours</span>
+              </div>
               <!--gt vs 3dgs-->
-              <a class = "example-item" onclick="changeExample_gt_gs('./static/images/comparsion/3dgs.png','./static/images/comparsion/gt.png')">
-                <img src="./static/images/comparsion/gt.png">
-              </a>
+              <div>
+                <a class = "example-item" onclick="changeExample_gt_gs('./static/images/comparsion/3dgs.png','./static/images/comparsion/gt.png')">
+                  <img src="./static/images/comparsion/gt.png">
+                </a>
+                <span  class="poppins-bold" style="color : #264a8e;">GT vs 3DGS</span>
+              </div>
             </div>
 
         </div>

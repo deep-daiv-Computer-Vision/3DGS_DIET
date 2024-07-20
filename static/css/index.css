@@ -358,11 +358,18 @@ body {
   height: auto;
 }
 
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: inline-block;
+}
+
 .poppins-semibold {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
-  display: inline-block;
+  display: block;
 }
 
 .poppins-bold {
@@ -407,4 +414,19 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 10%;
+}
+
+.subtitle{
+  margin-top: 10%;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  display: block;
+}
+
+.highlight{
+  display: inline;
+  box-shadow: inset 0 -100px 0 #6baeff4e; 
+  /*-10px은 highlight의 두께*/
 }

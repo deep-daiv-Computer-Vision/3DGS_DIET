@@ -58,7 +58,7 @@
               <span class="author-block">
                 <a href="https://github.com/chechae">Chehun Han</a><sup>4*</sup>, and </span>
               <span class="author-block">
-                <a href="https://github.com/ChangGyun-Jin">Changgyun Jin</a><sup>5&dagger;*</sup></span>
+                <a href="https://github.com/jcg6074">Changgyun Jin</a><sup>5&dagger;*</sup></span>
             </div>
 
             <div class="is-size-5 publication-authors">
@@ -197,14 +197,14 @@
                       <div id="example1" class="bal-container-small" style="padding-bottom: 10%;">
                         <div class="bal-after">
                           <img id='img_input1' src="./static/images/comparsion/3dgs_d.png">
-                          <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                          <div id ='right_img' class="bal-afterPosition afterLabel" style="z-index:1;">
                             Ours
                           </div>
                         </div>
                         <div class="bal-before" style="width:96.4968152866242%;">
                           <div class="bal-before-inset" style="width: 539px;">
                             <img id='img_input2' src="./static/images/comparsion/3dgs.png">
-                            <div class="bal-beforePosition beforeLabel">
+                            <div id ='left_img' class="bal-beforePosition beforeLabel">
                               3DGS
                             </div>
                           </div>
@@ -215,7 +215,6 @@
                         </div>
                       </div>
                       
-                      
                     </div>
                   </div>
                 </div>
@@ -223,11 +222,17 @@
             </div>
   
             <div class ="example-select" style="display: flex; justify-content: center; gap: 50px; padding-bottom: 30px;">
-              <a class = "example-item" onclick="changeExample('./static/images/comparsion/3dgs_d.png','./static/images/comparsion/3dgs.png')">
+              <!--3dgs_d vs 3dgs-->
+              <a class = "example-item" onclick="changeExample_db_gs('./static/images/comparsion/3dgs_d.png','./static/images/comparsion/3dgs.png')">
                 <img src="./static/images/comparsion/3dgs_d.png">
               </a>  
-              <a class = "example-item" onclick="changeExample('./static/images/comparsion/2_comp_after_23.jpg','./static/images/comparsion/2_comp_before_23.jpg')">
-                <img src="./static/images/comparsion/2_comp_before_23.jpg">
+              <!--gt vs 3dgs_d-->
+              <a class = "example-item" onclick="changeExample_gt_db('./static/images/comparsion/3dgs_d.png','./static/images/comparsion/gt.png')">
+                <img src="./static/images/comparsion/gt.png">
+              </a>
+              <!--gt vs 3dgs-->
+              <a class = "example-item" onclick="changeExample_gt_gs('./static/images/comparsion/3dgs.png','./static/images/comparsion/gt.png')">
+                <img src="./static/images/comparsion/gt.png">
               </a>
             </div>
 

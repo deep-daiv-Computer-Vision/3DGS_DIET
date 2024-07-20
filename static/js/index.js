@@ -78,9 +78,37 @@ $(document).ready(function() {
 
 })
 
-function changeExample(imgSrc1,imgSrc2){
+function changeExample_db_gs(imgSrc1,imgSrc2){
   vid = document.getElementById("img_input1");
   vid.src = imgSrc1;
   vid = document.getElementById("img_input2");
   vid.src = imgSrc2;
+
+  label_text = document.getElementById('right_img')
+  label_text.textContent = 'Ours'
+  label_text = document.getElementById('left_img')
+  label_text.textContent = '3DGS'
+}
+
+function changeExample_gt_db(imgSrc1,imgSrc2){
+  vid = document.getElementById("img_input1");
+  vid.src = imgSrc1;
+  vid = document.getElementById("img_input2");
+  vid.src = imgSrc2;
+
+  label_text = document.getElementById('right_img')
+  label_text.textContent = 'Ours'
+  label_text = document.getElementById('left_img')
+  label_text.textContent = 'GT'
+}
+function changeExample_gt_gs(imgSrc1,imgSrc2){
+  vid = document.getElementById("img_input1");
+  vid.src = imgSrc1;
+  vid = document.getElementById("img_input2");
+  vid.src = imgSrc2;
+
+  label_text = document.getElementById('right_img')
+  label_text.textContent = '3DGS'
+  label_text = document.getElementById('left_img')
+  label_text.textContent = 'GT'
 }

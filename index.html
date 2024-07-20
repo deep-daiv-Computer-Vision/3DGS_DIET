@@ -222,148 +222,15 @@
               </div>
             </div>
   
-            
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!---->
-  <section class="section" style="padding-top: 0; padding-bottom: 0;">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-full-width">
-          <div style="display: inline-block; width:100%;">
-            <div class="img_tag">
-              <h3>Deblurring & Super-Resolution (FMA-Net, '24 CVPR)</h3>
-              <img src="static/images/FMA.png" style="width:100%; height:auto; padding: 10px">
+            <div class ="example-select" style="display: flex; justify-content: center; gap: 50px; padding-bottom: 30px;">
+              <a class = "example-item" onclick="changeExample('./static/images/comparsion/3dgs_d.png','./static/images/comparsion/3dgs.png')">
+                <img src="./static/images/comparsion/3dgs_d.png">
+              </a>  
+              <a class = "example-item" onclick="changeExample('./static/images/comparsion/2_comp_after_23.jpg','./static/images/comparsion/2_comp_before_23.jpg')">
+                <img src="./static/images/comparsion/2_comp_before_23.jpg">
+              </a>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="section" style="padding-top: 0; padding-bottom: 0;">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-full-width">
-          <div style="display: inline-block; width:100%;">
-            <div class="img_tag">
-              <h3>Segmentation & Tracking (SAM-Track, '23 CVPR)</h3>
-              <video controls autoplay muted loop playsinline preload="auto" style="width:100%; height:auto; padding: 10px">
-                <source src="static/videos/SAM-Track.mp4" type="video/mp4">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="section" style="padding-top: 0;">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-full-width">
-          <div style="display: inline-block; width:100%;">
-            <div class="img_tag">
-              <h3>Gaussian Blurring (OpenCV)</h3>
-              <img src="static/images/Blurring.png" style="width:100%; height:auto; padding: 10px">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="section" style="padding: 0px;">
-    <div class="container is-max-desktop" style="max-width: 100%;">
-      <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
-            <div class="img_tag">
-              <h3>Video Frame Interpolation (Optional)</h3>
-            </div>
-              <div style="display: flex; justify-content: center; gap: 10px;">
-                <div style="position: relative; width: 30%;">
-                    <video poster="" id="cupcake" autoplay controls muted loop playsinline preload="auto" style="width: 100%; border-radius: 10px;">
-                        <source src="./static/videos/cat_before_vfi.mp4" type="video/mp4">
-                    </video>
-                    <div class="bal-beforePosition beforeLabel" style="position: absolute;">
-                      Origin
-                    </div>
-                </div>
-                <div style="position: relative; width: 30%;">
-                    <video poster="" id="sausage" autoplay controls muted loop playsinline preload="auto" style="width: 100%; border-radius: 10px;">
-                        <source src="./static/videos/cat_after_vfi.mp4" type="video/mp4">
-                    </video>
-                    <div class="bal-beforePosition beforeLabel" style="position: absolute;">
-                      EMA-VFI ('23 CVPR)
-                    </div>
-                </div>
-                <div style="position: relative; width: 30%;">
-                    <video poster="" id="sausage" autoplay controls muted loop playsinline preload="auto" style="width: 100%; border-radius: 10px;">
-                        <source src="./static/videos/cat_galaxyAI.mp4" type="video/mp4">
-                    </video>
-                    <div class="bal-beforePosition beforeLabel" style="position: absolute;">
-                      Instant Slow-Mo ('24.02 Galaxy AI)
-                    </div>
-                </div>
-              </div>
-          </div>
-      </div>
-    </div>
-  </section>
-<!-- Visual Comparisons -->
-  <section class="section" style="padding: 100px 0px 50px 0px; margin: 0;">
-    <div class="container ">
-      <div class=" has-text-centered">
-        <h2 class="title is-3">Visual Comparisons</h2> 
-        <div style="display: flex; justify-content: center; gap: 50px; padding-bottom: 30px;">
-          <img src="static/images/comparsion/viscombird3.jpg" style="width:43.5%">
-          <img src="static/images/comparsion/viscombird2.jpg" style="width:43.5%">
-        </div>
 
-        <div>
-          <div class="columns is-centered">
-            
-            <div class="column">
-              <div class="content">
-                <div class="columns is-centered">
-                  <div class="column is-full-width">
-                    <div id="example1" class="bal-container-small" style="padding-bottom: 150%;">
-                      <div class="bal-after">
-                        <img id='img_input1' src="./static/images/comparsion/rendering.png">
-                        <div class="bal-afterPosition afterLabel" style="z-index:1;">
-                          Ours
-                        </div>
-                      </div>
-                      <div class="bal-before" style="width:96.4968152866242%;">
-                        <div class="bal-before-inset" style="width: 539px;">
-                          <img id='img_input2' src="./static/images/comparsion/origin.png">
-                          <div class="bal-beforePosition beforeLabel">
-                            Origin
-                          </div>
-                        </div>
-                      </div>
-                      <div class="bal-handle" style="left:96.4968152866242%;">
-                        <span class=" handle-left-arrow"></span>
-                        <span class="handle-right-arrow"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class ="example-select" style="display: flex; justify-content: center; gap: 50px; padding-bottom: 30px;">
-            <a class = "example-item" onclick="changeExample('./static/images/comparsion/rendering.png','./static/images/comparsion/origin.png')">
-              <img src="./static/images/comparsion/origin.png">
-            </a>  
-            <a class = "example-item" onclick="changeExample('./static/images/comparsion/2_comp_after_23.jpg','./static/images/comparsion/2_comp_before_23.jpg')">
-              <img src="./static/images/comparsion/2_comp_before_23.jpg">
-            </a>
-          </div>
-
-         </div>
         </div>
       </div>
     </div>

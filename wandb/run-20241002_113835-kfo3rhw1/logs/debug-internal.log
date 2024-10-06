@@ -1,0 +1,9 @@
+{"time":"2024-10-02T11:38:35.067189922Z","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-02T11:38:35.068320136Z","level":"INFO","msg":"created symlink","path":"/content/drive/MyDrive/3DGS_0911/gaussian-splatting/wandb/run-20241002_113835-kfo3rhw1/logs/debug-core.log"}
+{"time":"2024-10-02T11:38:35.074293987Z","level":"INFO","msg":"created new stream","id":"kfo3rhw1"}
+{"time":"2024-10-02T11:38:35.074957052Z","level":"INFO","msg":"stream: started","id":"kfo3rhw1"}
+{"time":"2024-10-02T11:38:35.075001967Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"kfo3rhw1"}}
+{"time":"2024-10-02T11:38:35.075051137Z","level":"INFO","msg":"sender: started","stream_id":{"value":"kfo3rhw1"}}
+{"time":"2024-10-02T11:38:35.075012016Z","level":"INFO","msg":"handler: started","stream_id":{"value":"kfo3rhw1"}}
+{"time":"2024-10-02T11:38:35.275977528Z","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-02T11:38:35.282661622Z","level":"INFO","msg":"Starting system monitor"}

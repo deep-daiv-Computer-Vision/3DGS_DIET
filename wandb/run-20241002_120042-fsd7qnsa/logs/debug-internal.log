@@ -1,0 +1,9 @@
+{"time":"2024-10-02T12:00:42.788277983Z","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-02T12:00:42.789370108Z","level":"INFO","msg":"created symlink","path":"/content/drive/MyDrive/3DGS_0911/gaussian-splatting/wandb/run-20241002_120042-fsd7qnsa/logs/debug-core.log"}
+{"time":"2024-10-02T12:00:42.796069656Z","level":"INFO","msg":"created new stream","id":"fsd7qnsa"}
+{"time":"2024-10-02T12:00:42.796627237Z","level":"INFO","msg":"stream: started","id":"fsd7qnsa"}
+{"time":"2024-10-02T12:00:42.796661845Z","level":"INFO","msg":"handler: started","stream_id":{"value":"fsd7qnsa"}}
+{"time":"2024-10-02T12:00:42.796686502Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"fsd7qnsa"}}
+{"time":"2024-10-02T12:00:42.796686504Z","level":"INFO","msg":"sender: started","stream_id":{"value":"fsd7qnsa"}}
+{"time":"2024-10-02T12:00:43.373989852Z","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-02T12:00:43.400401279Z","level":"INFO","msg":"Starting system monitor"}

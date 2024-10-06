@@ -1,0 +1,11 @@
+Optimizing ./output/without_xyz
+Output folder: ./output/without_xyz [02/10 11:38:35]
+Reading camera 251/251 [02/10 11:38:38]
+Loading Training Cameras [02/10 11:38:38]
+Loading Test Cameras [02/10 11:38:42]
+Number of points at initialisation :  136029 [02/10 11:38:42]
+Training progress:  17% 4990/30000 [04:03<28:51, 14.44it/s, Loss=0.0568545]
+ [02/10 11:42:46]
+SET PARAMETER.... [02/10 11:42:46]
+ [02/10 11:42:46]
+DBSCAN....:   0% 0/1 [00:00<?, ?it/s]

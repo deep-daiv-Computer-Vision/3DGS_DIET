@@ -1,0 +1,1 @@
+{"columns": ["iteration", "viewpoint", "render_image", "gt_image"], "data": [[7000, "train_view_000052", "Image", "Image"], [7000, "train_view_000060", "Image", "Image"], [7000, "train_view_000160", "Image", "Image"], [7000, "train_view_000064", "Image", "Image"], [7000, "train_view_000089", "Image", "Image"]]}
